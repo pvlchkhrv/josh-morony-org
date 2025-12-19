@@ -45,6 +45,22 @@
           "codeCoverage": true
         }
       }
+    },
+    "test": {
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true,
+          "watch": false
+        }
+      }
+    },
+    "e2e": {
+      "configurations": {
+        "ci": {
+          "headless": true
+        }
+      }
     }
   },
   "plugins": [
